@@ -7,38 +7,41 @@ https://nmap.org/download.html
 ------
 
 **##find your network rang##**
-To find network range/IP Address on macos terminal, use command promt. ipconfig getifaddr en0
+To find network range/IP Address on window cmd, use command promt. ipconfig
 
 
-<img width="236" height="26" alt="Screen Shot 2025-08-14 at 12 32 43 PM" src="https://github.com/user-attachments/assets/95520555-aaf4-494c-a908-9f84d2ead3c9" />
+<img width="280" height="13" alt="image" src="https://github.com/user-attachments/assets/5cda4dd2-5948-4641-8017-9f650d2a5a22" />
 
 ------
 
 **##Discover devices on the network##**
-To discover the devices on the network, use command prompt.  nmap -sn 192.168.72.0/24
+To discover the devices on the network, use command prompt.  nmap -sP 192.168.0.1/24
 
-<img width="258" height="48" alt="Screen Shot 2025-08-14 at 1 07 07 PM" src="https://github.com/user-attachments/assets/b264226a-5cd9-4257-8a48-e62e4827fe42" />
+
+<img width="294" height="50" alt="image" src="https://github.com/user-attachments/assets/9e3defdb-056b-48ed-bc98-7484bf7e94da" />
+
 
 ------
 
 **##scan for open port##**
-To scan for open port, pick one of the result you got through discovery of network devices using command prompt. nmap -Pn -sV 192.168.72.103
+To scan for open port, pick one of the result you got through discovery of network devices using command prompt. nmap 192.168.0.122
 
-<img width="280" height="48" alt="Screen Shot 2025-08-14 at 5 22 16 PM" src="https://github.com/user-attachments/assets/ba5354d2-f979-4589-bbb0-7cadc3d0494d" />
+
+<img width="75" height="36" alt="image" src="https://github.com/user-attachments/assets/f9d9799b-24f9-4577-bb33-e3d77fc0a652" />
 
 ------
 
 **##Identify service##**
-To identify service, (DNS) Domain,Name,Service. also use the command prompt with your selected ip -Pn -sV 192.168.72.103. The service runing on the device is (D.N.S) SERVICE
+To identify service, use command prompt nmap -sV 192.168.0.122
 
 
-<img width="280" height="48" alt="Screen Shot 2025-08-14 at 5 22 16 PM" src="https://github.com/user-attachments/assets/b79543a8-f2cd-4edd-93fe-2d8497ace05e" />
+<img width="80" height="33" alt="image" src="https://github.com/user-attachments/assets/72e02e88-bf19-4a64-a117-de119b3c4c3a" />
 
 ------
 
 **##Record your findings##**
 create a table of ip addresses, device types, open ports, and services found
 
-https://docs.google.com/spreadsheets/d/1COk13AGqnVdkFjCBow0nbUAPNBqYKbIbze6Ym7bLjcA/edit?usp=sharing
+<img width="544" height="107" alt="image" src="https://github.com/user-attachments/assets/2495f95b-0ac3-4527-b29a-a4c2813b24fc" />
 
 
